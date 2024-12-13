@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="113306008_HW7.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- 左側面板 -->
+        <div class="left-panel">
+            <div class="photo-panel">
+                <img src="https://github.com/Fengjui-Liu/113306008_LAB1/raw/main/myphoto.jpg" alt="Profile Photo">
+            </div>
+            <h1 id="name-display">Ryder</h1>
+            <input type="text" id="name-input" style="display: none;">
+            <button id="edit-btn">edit</button>
+            <div class="about-me">
+                <h2>ABOUT ME</h2>
+                <p>
+                    I am a freshman in the Department of Management Information Systems at National Chengchi University. 
+                    I am very interested in studying programming and computer science fundamentals. I have experience in 
+                    writing Java, HTML, CSS, JavaScript, and Python.
+                </p>
+            </div>
+            <div class="contact">
+                <h2>CONTACT</h2>
+                <p>113306008@g.nccu.edu.tw</p>
+            </div>
+            <img src="https://github.com/Fengjui-Liu/Photo/raw/main/nccu_logo.png" alt="NCCU Logo" class="nccu-icon">
+        </div>
+
+        <!-- 右側面板 -->
+        <div class="right-panel">
+            <!-- 教育經歷 -->
+            <section class="education">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="entry">
+                        <span>2023 - now</span> National Chengchi University, Department of MIS
+                    </div>
+                    <div class="entry">
+                        <span>2021 - 2023</span> Hualien Senior High School
+                    </div>
+                    <div class="entry">
+                        <span>2018 - 2021</span> Kuo Feng Junior High School
+                    </div>
+                </div>
+            </section>
+
+            <!-- 功課清單 -->
+            <section class="homework">
+                <h2>Homework List</h2>
+                <ul>
+                    <li><a href="#">HW1</a></li>
+                    <li><a href="#">HW2</a></li>
+                    <li><a href="#">HW3</a></li>
+                </ul>
+            </section>
+
+            <!-- 最愛音樂 -->
+            <section class="favorite-music">
+                <h2>Favorite Music</h2>
+                <div class="albums">
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/watch?v=NFo8Popylio" target="_blank">
+                            <img src="https://github.com/Fengjui-Liu/Photo/raw/main/youtube_music_icon.jpg" alt="Music 1 Icon" width="40">
+                        </a>
+                        <p>秘密</p>
+                    </div>
+
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/watch?v=eKEQ06_7zD8" target="_blank">
+                            <img src="https://github.com/Fengjui-Liu/Photo/raw/main/youtube_music_icon.jpg" alt="Music 2 Icon" width="40">
+                        </a>
+                        <p>愛的可能</p>
+                    </div>
+
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/watch?v=90xQdZ4WmLA&list=RDAMVMeKEQ06_7zD8" target="_blank">
+                            <img src="https://github.com/Fengjui-Liu/Photo/raw/main/youtube_music_icon.jpg" alt="Music 3 Icon" width="40">
+                        </a>
+                        <p>孤獨的總和</p>
+                    </div>
+
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/watch?v=m4nu_F_9dWU&si=RMYeSchLKKhd5AqP" target="_blank">
+                            <img src="https://github.com/Fengjui-Liu/Photo/raw/main/youtube_music_icon.jpg" alt="Music 4 Icon" width="40">
+                        </a>
+                        <p>遇見</p>
+                    </div>
+                    </div>
+                        <button id="add-btn">add</button>
+                        <div id="music-form" style="display: none;">
+                            <input type="text" id="music-link" placeholder="輸入音樂連結">
+                            <input type="text" id="music-name" placeholder="輸入音樂名稱">
+                            <button id="submit-btn">提交</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="113306008_HW7.js"></script>
+</body>
+</html>
